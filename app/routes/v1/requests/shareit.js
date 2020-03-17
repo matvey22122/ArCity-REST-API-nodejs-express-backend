@@ -17,7 +17,7 @@ router.post('/:uuidRequest', async (req, res) => {
         const request = await aboutRequest(uuidRequest, {_id: false});
         easyvk({
             username: '89126592930',
-            password: '22122003sadman'
+            password: 'go out mister'
         }).then(async vk => {
             const data = await vk.call('photos.getWallUploadServer', {
             });
